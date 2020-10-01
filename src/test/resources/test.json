@@ -1,0 +1,108 @@
+[
+  {
+    "duedate": "03-07-2020",
+    "duehour": "14",
+    "subject": "MRM",
+    "tasks": [
+      {
+        "title": "Vektoren im Funktionsraum",
+        "points": "8",
+        "subtaskdepth": 1,
+        "number": "1",
+        "subtasks": [
+          {
+            "title": "a)",
+            "points": "3",
+            "number": "a)",
+            "subtasks": [],
+            "weight": "4"
+          },
+          {
+            "title": "b)",
+            "points": "3",
+            "number": "b)",
+            "weight": "3"
+          },
+          {
+            "title": "c)",
+            "points": "2",
+            "number": "c)",
+            "weight": "2"
+          }
+        ]
+      },
+      {
+        "title": "Gram-Schmidtsches Orthogonalisierungsverfahren",
+        "points": "8",
+        "subtaskdepth": 1,
+        "number": "2",
+        "subtasks": [
+          {
+            "title": "a)",
+            "points": "4",
+            "number": "a)",
+            "weight": "3"
+          },
+          {
+            "title": "b)",
+            "points": "4",
+            "number": "b)",
+            "weight": "4"
+          }
+        ]
+      },
+      {
+        "title": "Operatoren",
+        "points": "8",
+        "subtaskdepth": 2,
+        "number": "3",
+        "subtasks": [
+          {
+            "title": "a)",
+            "points": "4",
+            "number": "a)",
+            "subtaskdepth": 1,
+            "subtasks": [
+              {
+                "title": "i)",
+                "points": "1",
+                "number": "i)",
+                "weight": "10"
+              },
+              {
+                "title": "ii)",
+                "points": "1",
+                "number": "ii)",
+                "weight": "1"
+              },
+              {
+                "title": "iii)",
+                "points": "1",
+                "number": "iii)",
+                "weight": "1"
+              },
+              {
+                "title": "iv)",
+                "points": "1",
+                "number": "iv)",
+                "weight": "1"
+              }
+            ]
+          },
+          {
+            "title": "b)",
+            "points": "2",
+            "number": "b)",
+            "weight": "5"
+          },
+          {
+            "title": "c)",
+            "points": "2",
+            "number": "c)",
+            "weight": "4"
+          }
+        ]
+      }
+    ]
+  }
+]

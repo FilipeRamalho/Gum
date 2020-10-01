@@ -18,8 +18,7 @@ fun main(args: Array<String>) {
     val mapper = jacksonObjectMapper()
     mapper.registerKotlinModule()
     mapper.registerModule(JavaTimeModule())
-
-    var jsonString: String = File("./src/de/filiperamalho/gum/resources/test.json").readText(Charsets.UTF_8)
+    var jsonString: String = File({}.javaClass.classLoader.getResource("test.json").toURI()).readText(Charsets.UTF_8)
     val homework: List<Homework> = mapper.readValue(jsonString)
 
     //TODO Harmonize weight and taskdepth
@@ -47,7 +46,7 @@ fun main(args: Array<String>) {
     }
 
     jsonString = mapper.writeValueAsString(homework)
-    val writer = PrintWriter("./src/de/filiperamalho/gum/resources/test2.json")
+    val writer = PrintWriter(File({}.javaClass.classLoader.getResource("test2.json").toURI()))
     writer.append(jsonString)
     writer.close()
 }

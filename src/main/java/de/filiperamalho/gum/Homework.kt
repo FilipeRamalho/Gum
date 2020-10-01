@@ -53,12 +53,6 @@ class Homework(
         return  Period.between(LocalDate.now(), duedate).days
     }
 
-    init {
-        if (getDaysBetween() < 0) {
-            throw IllegalArgumentException("Due date can't be before today's date!")
-        }
-    }
-
     private fun getTotalWeight():Int{
         var totalweight = 0
         for(i in tasks){
