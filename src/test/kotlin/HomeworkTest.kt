@@ -1,9 +1,9 @@
 import de.filiperamalho.gum.main
-import org.junit.jupiter.api.BeforeEach
+import kotlin.test.*
 
 internal class HomeworkTest {
 
-    @BeforeEach
+    @BeforeTest
     fun setUp() {
         main(arrayOf("no-args"))
     }

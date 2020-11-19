@@ -1,3 +1,13 @@
 # Project exclude paths
-/target/
-/gum.iml
+target
+gum.iml
+.idea
+.project
+.settings
+.classpath
+.vscode
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
