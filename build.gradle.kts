@@ -28,7 +28,7 @@ dependencies {
 
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.11.3")
 
-    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.3")
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.12.4")
 
     // This dependency is used by the application.
     implementation("com.google.guava:guava:29.0-jre")
